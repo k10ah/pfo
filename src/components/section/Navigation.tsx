@@ -104,7 +104,7 @@ const Navigation = () => {
           ${withAlpha(isDarkMode ? themeColors.colors.dark[900] : themeColors.colors.pink[25], isScrolled ? 0.7 : 0.5)})`
       }}>
       <div className="nav-container">
-        <button className="signature-name"
+        <button className="Keerthana K"
           style={{ 
             cursor: 'pointer', 
             color: themeColors.colors.pink[500], 
@@ -114,8 +114,8 @@ const Navigation = () => {
             WebkitTextFillColor: themeColors.colors.pink[500]
           }}
           onClick={() => window.location.href = '/'}
-          aria-label="Your Name - Go to homepage">
-          Your Name
+          aria-label="Keerthana K - Go to homepage">
+          Keerthana K
         </button>
         
         {/* Desktop Navigation */}
