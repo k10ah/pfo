@@ -8,34 +8,23 @@ const Experience = () => {
   const themeColors = useThemeColors();
   const experiences = [
     {
-      title: "Your Job Title",
-      company: "Company Name",
-      location: "City, State",
-      period: "Month Year - Month Year",
+      title: "Summer Intern",
+      company: "Indian Institute of Technology, Madras (NIID Lab)",
+      location: "Chennai, Tamil Nadu",
+      period: "May 2026 - Present",
       description: [
-        "Description of your role and accomplishments",
+        "I am working with multimodal signals and images including surface EMG, Myotonometry, EEG and Infrared Radiography for various research purposes including neuromuscular study.", "I contributed in the classification of signals using machine learning techniques and image segmentation using deep learning models","I worked with image segmentation of cervical cancer cells (SiPaKMeD dataset) using SAM, MedSAM, U-Net, PRISM. I am also a Co-Author in the respective paper that has been recently accepted by ICMMB-2026, Singapore Conference.",
       ]
     },
     {
-      title: "Your Job Title",
-      company: "Company Name",
-      location: "City, State",
-      period: "Month Year - Month Year",
+      title: "Data science Intern",
+      company: "Prediscan - IITMRP Startup",
+      location: "Chennai, Tamil Nadu",
+      period: "May 2026 - July 2026",
       description: [
-        "Description of your role and accomplishments",
-        "Another accomplishment or responsibility",
-        "One more key achievement",
-      ]
-    },
-    {
-      title: "Your Job Title",
-      company: "Company Name",
-      location: "City, State",
-      period: "Month Year - Month Year",
-      description: [
-        "Description of your role and accomplishments",
-        "Another accomplishment or responsibility",
-        "One more key achievement",
+        "Developed a multi-label ICD-10 diagnosis prediction pipeline using PubMedBERT, PyTorch, and Hugging Face Transformers to classify clinical notes across 878 ICD codes for healthcare insurance claim processing.",
+        "Preprocessed and analyzed 23,792 clinical records, implementing biomedical NLP workflows, confidence scoring, and Top-5 ICD recommendation logic to support efficient medical coding.",
+        "Built and evaluated deep learning models using Python, Scikit-learn, Pandas, and NumPy, incorporating techniques such as mixed precision training, early stopping, and model checkpointing to optimize training performance.",
       ]
     }
   ];

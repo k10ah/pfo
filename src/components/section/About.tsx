@@ -26,9 +26,9 @@ const About = () => {
   ];
 
   const profileImages = [
-    { src: profile1, caption: "photo 1" },
-    { src: profile2, caption: "photo 2" },
-    { src: profile3, caption: "photo 3" }
+    { src: profile1, caption: "wondering about the day-ta analytics of california burrito" },
+    { src: profile2, caption: "after emcee-ing through the weekdays of international conference on bio signals, images and instrumentation" },
+    { src: profile3, caption: "smiling through the sunset after a day of entrepreneurship events" }
   ];
 
   const fullAsciiArt = `⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -318,7 +318,7 @@ const About = () => {
           <div className={`relative w-full max-w-sm md:max-w-md ${isClosing ? 'animate-scaleOut' : 'animate-scaleIn'}`} onClick={(e) => e.stopPropagation()}>
             {/* Carousel Container */}
             <div
-              className="relative w-full bg-black rounded-lg shadow-2xl overflow-hidden focus:outline-none"
+              className="relative w-full bg-white dark:bg-slate-900 rounded-lg shadow-2xl overflow-hidden"
               style={{
                 aspectRatio: '4/5',
                 minHeight: '300px',
@@ -337,7 +337,7 @@ const About = () => {
                     key={index}
                     src={image.src}
                     alt={`Profile photo ${index + 1}`}
-                    className={`absolute w-full h-full object-contain transition-opacity duration-500 ${
+                    className={`absolute w-full h-full object-cover transition-opacity duration-500 ${
                       index === currentImageIndex ? 'opacity-100' : 'opacity-0'
                     }`}
                     loading="eager"

@@ -1,6 +1,5 @@
 # Portfolio Template
 
-A customizable personal portfolio website built with React, TypeScript, and Tailwind CSS. Features interactive elements, smooth animations, dark/light mode, and a clean design.
 
 ## Getting Started
 
@@ -120,13 +119,13 @@ These are consumed in `src/config/socialLinks.ts` — add more repository entrie
 }
 ```
 
-**Project icons** — Add icon images to `src/assets/project_icons/` and register them in `src/assets/project_icons/index.ts`:
+**Project icons** — icon images to `src/assets/project_icons/` and register them in `src/assets/project_icons/index.ts`:
 ```ts
 import YourProjectIcon from './YourProjectIcon.webp';
 export { YourProjectIcon };
 ```
 
-**Project detail pages** — Create a detail page for each project at `src/pages/projects/YourProject.tsx`. Use the available components:
+**Project detail pages** — a detail page for each project at `src/pages/projects/YourProject.tsx`. Use the available components:
 - `ProjectLayout` — Page wrapper with dark mode theming
 - `ProjectHeader` — Icon, title, subtitle, GitHub link, feature grid
 - `ImageCarousel` — Screenshot carousel with navigation
@@ -134,7 +133,7 @@ export { YourProjectIcon };
 - `TechStack` — Technology badges
 - `TechnicalHighlights` — Bulleted achievements list
 
-**Project snapshots** — Add screenshot images to `src/assets/project_snapshots/your-project/` and import them in `src/assets/index.ts`.
+**Project snapshots** — screenshot images to `src/assets/project_snapshots/your-project/` and import them in `src/assets/index.ts`.
 
 **Routing** — Register your project pages in `src/App.tsx`:
 ```tsx
@@ -142,33 +141,6 @@ const YourProject = lazy(() => import('./pages/projects/YourProject'))
 // ...
 <Route path="/projects/your-project" element={<YourProject />} />
 ```
-
-### 7. Experience
-
-Edit `src/components/section/Experience.tsx` with your work history:
-```tsx
-{
-  title: "Your Job Title",
-  company: "Company Name",
-  location: "City, State",
-  period: "Month Year - Month Year",
-  description: [
-    "Your accomplishment or responsibility",
-  ]
-}
-```
-
-### 8. Certifications
-
-Edit `src/components/section/Certifications.tsx` with your credentials. The section supports two types:
-- **Badges** (e.g., AWS) — with image, title, subtitle, and Credly URL
-- **Credentials** (e.g., CITI) — with image, title, issuer, dates, and credential ID/URL
-
-Replace badge images in `src/assets/badges/` with your own.
-
-### 9. Skills
-
-Update your technical skills in `src/components/section/Skills.tsx`. Skill icons are in `src/assets/techstack/`.
 
 ## Project Structure
 
@@ -197,9 +169,9 @@ portfolio-template/
 │   │   └── colors.ts            # Color palette
 │   └── App.tsx                  # Routes & layout
 ├── public/
-│   └── resume.pdf               # Your resume (add this)
-├── .env                         # Your environment variables (create from .env.example)
-└── .env.example                 # Environment variable template
+│   └── resume.pdf               
+├── .env                         
+└── .env.example                 
 ```
 
 ## Features

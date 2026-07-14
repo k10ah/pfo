@@ -1,8 +1,7 @@
 import { useDarkMode } from '../../contexts/DarkModeContext';
 import { useThemeColors } from '../../hooks/useThemeColors';
-import awsCloudFoundationsBadge from '../../assets/badges/AWS_cloud_foundations_badge.webp';
-import awsCloudPractitionerBadge from '../../assets/badges/AWS_cloud_practitioner_badge.webp';
-import citiLogo from '../../assets/badges/citi_logo.webp';
+import ibmlogo from '../../assets/badges/ibmlogo.webp';
+import acclogo from '../../assets/badges/acclogo.webp';
 
 const Certifications = () => {
   const { isDarkMode } = useDarkMode();
@@ -10,63 +9,41 @@ const Certifications = () => {
 
   const badges = [
     {
-      id: 'aws-cloud-foundations',
-      image: awsCloudFoundationsBadge,
-      alt: 'AWS Academy Cloud Foundations Badge',
-      title: 'AWS Academy Cloud Foundations',
-      subtitle: 'Academy Graduate',
-      credentialUrl: 'https://www.credly.com/badges/your-credential-id/public_url',
-      status: 'completed'
-    },
-    {
-      id: 'aws-cloud-practitioner',
-      image: awsCloudPractitionerBadge,
-      alt: 'AWS Cloud Practitioner Badge',
-      title: 'AWS Certified Cloud Practitioner',
-      subtitle: 'Amazon Web Services',
-      credentialUrl: 'https://www.credly.com/badges/your-credential-id/public_url',
+      id: 'accenture-program',
+      image: acclogo,
+      alt: 'Accenture GoForGold',
+      title: 'Accenture Go For Gold',
+      subtitle: 'Oracle cloud, CS and IT fundamentals',
+      credentialUrl: 'https://www.linkedin.com/in/keerthana-k-b20061306/overlay/Certifications/542274849/treasury/?profileId=ACoAAE32UwgBFJ2Ei2yE8mGc-Jjb5AQocxtQ_AY',
       status: 'completed'
     }
   ];
 
   const credentials = [
     {
-      id: 'citi-human-subjects',
-      image: citiLogo,
-      alt: 'CITI Program Logo',
-      title: 'Social / Behavioral Research Investigator',
-      subtitle: 'Human Subjects Research',
-      issuer: 'CITI Program',
-      issued: 'Sep 2023',
-      expires: 'Sep 2026',
-      credentialId: '00000000',
-      credentialUrl: 'https://www.citiprogram.org/verify/?your-credential-id',
+      id: 'ibm-machine learning',
+      image: ibmlogo,
+      alt: 'IBM Logo',
+      title: 'Machine learning / Data science',
+      subtitle: 'Using python',
+      issuer: 'IBM',
+      issued: 'June 2025',
+      expires: '',
+      credentialId: '1da10be2-290b-4f60-9e36-8bfc105ebbc5',
+      credentialUrl: 'https://www.credly.com/badges/1da10be2-290b-4f60-9e36-8bfc105ebbc5/public_url',
       status: 'completed'
     },
     {
-      id: 'citi-hipaa',
-      image: citiLogo,
-      alt: 'CITI Program Logo',
-      title: 'Research and HIPAA Privacy Protections',
-      subtitle: 'Human Research',
-      issuer: 'CITI Program',
-      issued: 'Sep 2023',
-      expires: 'Sep 2026',
-      credentialId: '00000000',
-      credentialUrl: 'https://www.citiprogram.org/verify/?your-credential-id',
-      status: 'completed'
-    },
-    {
-      id: 'citi-gcp',
-      image: citiLogo,
-      alt: 'CITI Program Logo',
-      title: 'Investigational Drugs and Medical Devices',
-      subtitle: 'Good Clinical Practice',
-      issuer: 'CITI Program',
-      issued: 'Nov 2025',
-      expires: 'Nov 2028',
-      credentialId: '00000000',
-      credentialUrl: 'https://www.citiprogram.org/verify/?your-credential-id',
+      id: 'ibm-databases and sql',
+      image: ibmlogo,
+      alt: 'IBM Logo',
+      title: 'Databases and SQL for Data science',
+      subtitle: 'using jupyter, php and mysql with ibm watson cloud',
+      issuer: 'IBM',
+      issued: 'June 2025',
+      expires: '',
+      credentialId: 'd21ea945-e410-4b23-8e3f-25d0733d9598',
+      credentialUrl: 'https://www.credly.com/badges/d21ea945-e410-4b23-8e3f-25d0733d9598/public_url',
       status: 'completed'
     }
   ];

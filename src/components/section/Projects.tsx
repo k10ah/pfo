@@ -229,36 +229,20 @@ const Projects = () => {
   // project data - these are the main cards
   const projects = [
     {
-      title: "Project One",
-      description: "A brief description of your first project. Highlight the key features and what makes it unique.",
-      technologies: ["React", "TypeScript", "Node.js", "MongoDB"],
+      title: "Ml-driven tremor detection and health-monitoring glove for hypoglycemia",
+      description: "This project focuses on developing a smart wearable glove that detects early signs of hypoglycemia using machine learning. The glove uses an MPU6050 sensor to capture gyroscope and accelerometer data, which are processed through an ensemble machine learning model with K-fold cross-validation for improved accuracy of 94.03% along with a statistical classifier that checks each datapoint. The system communicates via Bluetooth and visualizes data on a Python-based web application using FastAPI, enabling real-time monitoring and analysis. Along with this, the glove is also integrated with a MAX30102 PPG sensor for real-time vital monitoring of cardiac health.",
+      technologies: ["Python","Javascript", "FastAPI", "Scikit-learn", "Embedded C"],
       icon: comingSoon,
-      detailsUrl: "/projects/project-one",
+      detailsUrl: "/projects/Tremor detector",
       githubUrl: socialLinks.repositories.projectOne
     },
     {
-      title: "Project Two",
-      description: "A brief description of your second project. Highlight the key features and what makes it unique.",
-      technologies: ["Python", "Flask", "PostgreSQL", "Docker"],
+      title: "SpaceX Launch Data Science and Analytics",
+      description: "The project focuses on in-depth analysis of the dataset which is collected from the web using webscraping and API techniques. EDA with visualization and SQL add an edge to the dataset which is based on rocket launches and sites. Further, an interactive map using Folium and an interactive dashboard using Plotly Dash helps in the analysis. Predictive analytics has been done with various models - Decision Tree being the most prominent one. This project helped to analyse and draw insights from vast data and build visualization and machine learning models to improve accuracy and story telling.",
+      technologies: ["Machine learning", "Plotly dash and Folium", "MySQL", "php"],
       icon: comingSoon,
       detailsUrl: "/projects/project-two",
       githubUrl: socialLinks.repositories.projectTwo
-    },
-    {
-      title: "Project Three",
-      description: "A brief description of your third project. Highlight the key features and what makes it unique.",
-      technologies: ["JavaScript", "Express", "AWS", "Tailwind CSS"],
-      icon: comingSoon,
-      detailsUrl: "/projects/project-three",
-      githubUrl: socialLinks.repositories.projectThree
-    },
-    {
-      title: "Project Four",
-      description: "A brief description of your fourth project. Highlight the key features and what makes it unique.",
-      technologies: ["C++", "CMake", "OpenGL"],
-      icon: comingSoon,
-      detailsUrl: "/projects/project-four",
-      githubUrl: socialLinks.repositories.projectFour
     }
   ];
 
