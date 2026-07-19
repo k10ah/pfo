@@ -231,7 +231,7 @@ const Projects = () => {
     {
       title: "Ml-driven tremor detection and health-monitoring glove for hypoglycemia",
       description: "This project focuses on developing a smart wearable glove that detects early signs of hypoglycemia using machine learning. The glove uses an MPU6050 sensor to capture gyroscope and accelerometer data, which are processed through an ensemble machine learning model with K-fold cross-validation for improved accuracy of 94.03% along with a statistical classifier that checks each datapoint. The system communicates via Bluetooth and visualizes data on a Python-based web application using FastAPI, enabling real-time monitoring and analysis. Along with this, the glove is also integrated with a MAX30102 PPG sensor for real-time vital monitoring of cardiac health.",
-      technologies: ["Python","Javascript", "FastAPI", "Scikit-learn", "Embedded C"],
+      technologies: ["Python","Javascript", "FastAPI","Socket.IO", "Scikit-learn", "Embedded C"],
       icon: comingSoon,
       detailsUrl: "/projects/Tremor detector",
       githubUrl: socialLinks.repositories.projectOne
