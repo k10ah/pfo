@@ -20,9 +20,10 @@ const About = () => {
 
   const roles = [
     'Data scientist',
-    'Software Engineer',
+    'Biomedical Engineer',
     'AI/ML Engineer',
-    'Frontend Developer',
+    'Software Developer',
+    'Neurotech enthusiast'
   ];
 
   const profileImages = [
