@@ -5,7 +5,7 @@ import AsciiMorphText from '../AsciiMorphText';
 import TypewriterCarousel from '../TypewriterCarousel';
 import { useDarkMode } from '../../contexts/DarkModeContext';
 import { useThemeColors, withAlpha } from '../../hooks/useThemeColors';
-import { aboutMeJournalWebp800, aboutMeJournalWebp400, profile1, profile2, profile3,conf1,conf2 stickers as stickerImages } from '../../assets';
+import { aboutMeJournalWebp800, aboutMeJournalWebp400, profile1, profile2, profile3,conf1,conf2,stickers, as stickerImages } from '../../assets';
 
 
 const About = () => {
@@ -29,9 +29,9 @@ const About = () => {
 
   const profileImages = [
     { src: profile2, caption: "after emcee-ing through the weekdays of ICBSII 2025" },
-    { src: conf1, caption: "snapshot of QA session for my paper on SAM segmentation of cervical cancer cells - ICMMB 2026" }
+    { src: conf1, caption: "snapshot of QA session for my paper on SAM segmentation of cervical cancer cells - ICMMB 2026" },
     { src: profile1, caption: "wondering about the day-ta analytics of california burrito" },
-    { src: conf2, caption: "motor-related EEG and events :)) - ICMMB 2026" },
+    { src: conf2 , caption: "motor-related EEG and events :)) - ICMMB 2026" },
     { src: profile3, caption: "smiling through the sunset after a day of entrepreneurship events" }
   ];
 
