@@ -6,7 +6,8 @@ import aboutMeJournalWebp400 from './journal.PNG';
 import profile1 from './profile1.jpg';
 import profile2 from './profile2.jpg';
 import profile3 from './profile3.jpg';
-
+import conf1 from './conf1.jpg';
+import conf2 from './conf2.jpg';
 import comingSoon from './coming_soon.png';
 import dividerPng from './divider.PNG';
 import dividerWebp from './divider-original.webp';
@@ -30,6 +31,8 @@ export const mainAssets = {
   profile1,
   profile2,
   profile3,
+  conf1,
+  conf2,
   comingSoon,
   divider,
   dividerPng,
@@ -44,6 +47,8 @@ export {
   profile1,
   profile2,
   profile3,
+  conf1,
+  conf2,
   comingSoon,
   divider,
   dividerPng,
