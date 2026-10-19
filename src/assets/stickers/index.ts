@@ -40,5 +40,3 @@ export const stickers = [
 export const stickersWebp = stickers;
 
 export default stickers;
-export { default as conf1 } from './conf1.jpg';
-export { default as conf2 } from './conf2.jpg';
